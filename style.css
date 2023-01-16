@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    padding: auto;
+    margin: auto;
+   
+    
+}
+.head{
+    background: #f8dec1;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding: 5px;
+   
+
+}
+.nav-Name{
+    display: flex;
+    gap: 5px;
+    
+}
+.nav-Name li{
+    list-style: none;
+}
+.nav-Name a{
+    display: flex;
+    text-decoration: none;
+    justify-self: flex-start;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(14, 13, 13);
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.title h1{
+ text-align: center;
+ font-weight: 800;
+ margin-top: 40px;
+ padding: 5px;
+}
+.title p{
+    padding: 10px;
+    text-align: center;
+    font-weight: 400; 
+    color: #75726e;
+}
+.explore{
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #FF900E ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.title img{
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.section-2{
+    display: flex;
+}
+.box-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    padding-left: 120px;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.box-1 img{
+    width: 15em;
+    height: 15em;
+
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin: 15px 120px 0px 0px;
+}
+.btn-2{
+    justify-self: start;
+    align-self: start;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    background-color: #FF900E ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.features{
+    color: #FF900E;
+}
+.box-2 p{
+    color: #75726e;
+}
+.section-3{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 40px;
+  width: 800px;
+  padding: auto;
+  margin: auto;
+
+}
+.box-4{
+       padding: 10px;
+       margin: 10px;
+}
+.box-4 h2{
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left: 2px solid #FF900E;
+}
+.box-4 p{
+    padding: 10px 0px 10px 0px;
+    font-weight: 400; 
+    color: #75726e;
+    
+}
+.card{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px #75726e;
+    background-color: white;  
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px #75726e;
+    background-color: white;  
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px #75726e;
+    background-color: white;  
+}
+.box-5{
+    position: relative;
+}
+.box-5 img{
+    width: 100%;
+}
+.year{
+    background-color: #FF900E ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    position: absolute;
+    bottom: 10px;
+    padding: 30px;
+    margin: 10px;
+    left: 0px;
+    font-size: 16px;
+}
+.year10{
+    font-weight: bold;
+    font-size: 36px;
+}
+.section-4 h2{
+    margin-left: 180px;
+    font-weight: 800;
+    padding: 10px;
+}
+.section-4 h6{
+    margin-left: 180px;
+    padding: 10px;
+    color: #75726e;
+    
+}
+.winer{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    align-content: center;
+    margin: 10px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid #FF900E;
+    width: 150px;
+    height: 150px;
+}
+.box img,p,h1{
+    padding: 10px;
+}
+
+.section-5{
+    padding: 20px;
+  text-align: center;
+  
+}
+.section-5 p{
+    color: #75726e;
+}
+.contract-us{
+    padding: 20px;
+    margin: 20px;
+  text-align: center;
+}
+.contract-us h2{
+    padding: 20px;
+}
+footer{
+    background-color: #0e0d0d;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-menu{
+        flex-direction: column;
+        text-align: start;
+        background-color: #f7dbb9;
+    } 
+    
+    .nav-Name {
+      flex-direction: column;
+      gap: 0px;
+     
+    }
+    .nav-Name li{
+   
+        padding-left: 20%;
+      }
+    
+
+}
